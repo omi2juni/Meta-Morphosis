@@ -49,7 +49,7 @@ function Stalk(msg,x,y) {
     pop();
     
     push();
-    text(this.msg, this.x - 40, this.y-20, 90);
+    text(this.msg, this.x - 40, this.y-20, 80);
     pop();
     
    //console.log(this.history.length);
