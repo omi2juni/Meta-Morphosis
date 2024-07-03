@@ -51,6 +51,10 @@ function preload(){
 
 function setup() {
 
+  storeItem("refresh", true);
+  storeItem("buttonPressed", 0);
+  storeItem("state", false);
+
   a = 'Who are you?';
   b = 'Why are you here?';
 
