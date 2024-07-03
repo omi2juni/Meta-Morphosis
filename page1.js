@@ -201,7 +201,7 @@ function draw() {
 
       if (collision === false && frameCount>35) {
         fill("red");
-        //window.location.href = "index.html";
+        window.location.href = "about.html";
       } else {
         fill("#81FF00");
       }
