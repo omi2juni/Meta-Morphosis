@@ -123,6 +123,10 @@ function setup() {
 
 function draw() {
 
+  if (frameCount>5){
+    storeItem("refresh", false);
+  }
+
   px = mouseX;
   py = mouseY;
 
