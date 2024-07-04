@@ -22,10 +22,9 @@ function Stalk(msg,x,y) {
     var v = createVector(this.x, this.y);
     this.history.push(v);    
     
-    if (this.history.length > 200){
+    if (this.history.length > 300){
       this.history.splice(0,1);
     }
-
   }
   
   this.display = function(){
@@ -51,9 +50,7 @@ function Stalk(msg,x,y) {
     push();
     text(this.msg, this.x - 40, this.y-20, 80);
     pop();
-    
-   //console.log(this.history.length);
-  }
+    }
 
 
   // this.reset = function(){
