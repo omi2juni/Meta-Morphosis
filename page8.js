@@ -166,7 +166,7 @@ function draw() {
   button.mousePressed(uploadMessage);
   
 
-  if (frameCount<600){
+  if (frameCount<850){
   push();
     stroke("white");
     fill("black");
