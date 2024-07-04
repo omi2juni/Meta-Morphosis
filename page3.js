@@ -197,7 +197,7 @@ function draw() {
       }
     }
 
-    if (collision === false && frameCount>35) {
+    if (collision === false && frameCount>50) {
       fill("red");
       window.location.href = "about.html";
     } else {
