@@ -156,7 +156,7 @@ function draw() {
     a = "By revealing your identity, you can connect with others in the Dark Forest.";
   }
   if (checkbox3.checked()) {
-    a = "By revealing your activities, the Dark Forest provides you with a personalised experience.";
+    a = "By tracking your activities, the Dark Forest provides you with a personalised experience.";
   }
   
   // Draws floating spam boxes
