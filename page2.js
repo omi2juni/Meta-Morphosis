@@ -232,7 +232,7 @@ function draw() {
   }
 
     // detects when cursor goes outside path
-      if (collision === false && frameCount>35) {
+      if (collision === false && frameCount>50) {
         fill("red");
         window.location.href = "about.html";
       } else {
